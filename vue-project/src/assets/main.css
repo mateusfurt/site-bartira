@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(247,245,243,255); /* Substitua pela cor desejada */
+  background-color: #eff0fa; /* Substitua pela cor desejada */
   margin: 0;
   min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
 }
