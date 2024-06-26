@@ -30,8 +30,10 @@ import HelloWorld from './components/HelloWorld.vue'
       </div>
     </header>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/formacao">Formação/Áreas de Interesse</RouterLink>
+      <RouterLink to="/aulas">Aulas</RouterLink>
+      <RouterLink to="/projetos">Projetos</RouterLink>
+      <RouterLink to="/atividades-admin">Atividades Administrativas</RouterLink>
     </nav>
   
     <RouterView />
@@ -110,33 +112,32 @@ h3{
 }
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 14px; /* Aumentei um pouco o tamanho da fonte para melhor legibilidade */
   text-align: center;
   margin-top: 2rem;
 }
 
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff; /* Azul suave */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0056b3; /* Tom mais escuro de azul no hover */
+}
+
 nav a.router-link-exact-active {
-  background-color: blue;
+  background-color: #0056b3; /* Tom mais escuro de azul para o link ativo */
 }
 
 nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-  width: 60px;
-  height: 30px;
-  padding: 0;
-  align-content: center;
-  margin: 0;
-  
-}
-
-nav a:first-of-type {
-  border: 0;
+  background-color: #007bff; /* Mantém o azul suave no hover quando ativo */
 }
 .flex{
   display: flex;
