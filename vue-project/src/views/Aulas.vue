@@ -48,7 +48,7 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     transition: background-color 0.3s ease;
   }
   

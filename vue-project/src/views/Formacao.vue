@@ -89,7 +89,7 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .formacao-list li h4 {
@@ -97,7 +97,7 @@
   }
   
   .interesse-list li {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
   
   </style>

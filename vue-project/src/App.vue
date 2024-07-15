@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <header class="flex">
     
       <div class="cartao">
-        <h1 class="nomecartao">DRa. Bartira Rocha</h1>
+        <h1 class="nomecartao">Dra. Bartira Rocha</h1>
         <h3 class="profissao">Professora de Ciência da Computação</h3>
         <div class="basecartao flex">
           <div>
@@ -77,7 +77,7 @@ h3{
   font-family:  'Times New Roman', Times, serif;
   font-size: 3em;
   font-weight: lighter;
-  text-transform: uppercase;
+
   color: rgb(0, 0, 0);
   text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -111,16 +111,20 @@ h3{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 nav {
-  width: 100%;
+  background-color: #007bff; /* Azul suave */
+  border-radius: 5px;
   font-size: 14px; /* Aumentei um pouco o tamanho da fonte para melhor legibilidade */
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  gap: 20px;
+
+
 }
 
 nav a {
   display: inline-block;
   padding: 10px 20px;
-  margin: 0 5px;
   border-radius: 5px;
   color: white;
   background-color: #007bff; /* Azul suave */
