@@ -1,7 +1,5 @@
 <template>
-    <div class="formacao-container">
-      <h2>Formação Acadêmica e Áreas de Interesse</h2>
-      
+    <div class="formacao-container">      
       <div class="formacao-interesse">
         <!-- Lista de Formações Acadêmicas -->
         <div class="formacao-list">

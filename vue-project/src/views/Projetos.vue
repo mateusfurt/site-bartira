@@ -1,7 +1,5 @@
 <template>
-  <div class="projetos-container">
-    <h2>Projetos</h2>
-    
+  <div class="projetos-container">   
     <div class="projeto-item">
       <h3>2010 - 2011</h3>
       <p><strong>Projeto de Capacitação Digital</strong> - Capacitando os professores da rede pública estadual de ensino do município de Nova Cruz no uso dos computadores cedidos através do projeto Professor Conectado</p>

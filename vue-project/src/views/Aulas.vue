@@ -1,6 +1,5 @@
 <template>
     <div class="aulas-container">
-      <h2>Disciplinas Ministradas</h2>
       <ul class="disciplinas-list">
         <li>Análise e Projeto de Sistemas</li>
         <li>Banco de Dados</li>
